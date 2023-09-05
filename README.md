@@ -4,6 +4,20 @@
 ## Objective
 The aim of this project is to evaluate the coding capabilities of Generative AI models using a diverse set of mathematical problems. The generated problems range from sequences like Fibonacci to prime numbers, factorial calculations, arithmetic, and geometric progressions.
 
+## What's Interesting?
+
+This project offers a fresh perspective on benchmarking Generative AI models in coding tasks. Here's why this approach stands out:
+
+1. **Diverse Mathematical Models**: Instead of standard coding problems, this benchmark focuses on a variety of mathematical models. From sequences like Fibonacci to prime number calculations, the problems offer a blend of computational and mathematical challenges.
+  
+2. **Automated Testing Harness**: With a prime focus on automation, the testing harness allows for seamless evaluation. Whether you have 10 or 10,000 problems, the script can evaluate solutions without manual intervention.
+
+3. **Flexibility for Expansion**: The structured format of problems makes it easy to add new challenges. Whether you want to introduce new mathematical concepts or increase the complexity of existing ones, the framework supports it.
+
+4. **Granular Feedback**: Instead of just a pass/fail status, the harness provides detailed feedback on each problem. This can be instrumental in understanding the strengths and weaknesses of a Generative AI model in coding tasks.
+
+5. **Open-Source and Collaborative**: The project is open-sourced, allowing for community-driven enhancements, extensions, and improvements.
+
 ## Problem Structure
 Each problem in the dataset is represented as a JSON object with the following attributes:
 - `problem_id`: A unique identifier for the problem.
