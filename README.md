@@ -1,48 +1,29 @@
 
-# Generative AI Python Coding Benchmark
+# AI Coding Abilities Assessment
 
-## Objective
-The aim of this project is to evaluate the coding capabilities of Generative AI models using a diverse set of mathematical problems. The generated problems range from sequences like Fibonacci to prime numbers, factorial calculations, arithmetic, and geometric progressions.
+This project aims to assess generative AI's coding capabilities through a set of 100 Python problems that focus on good practices of software engineering. Each problem tests the AI's ability to write code that is not only functional but also adheres to principles such as modularity, readability, and robustness.
 
-## What's Interesting?
+## Project Structure
 
-This project offers a fresh perspective on benchmarking Generative AI models in coding tasks. Here's why this approach stands out:
+- `problems.json`: A JSON file containing 100 Python coding problems, each with a description, input parameters, output parameters, sample test cases, coding guidelines, and evaluation metrics.
+- `automated_testing.py`: A Python script that mocks the generation of solutions by an AI, tests these solutions against the provided sample test cases, and evaluates them based on the metrics defined in `problems.json`.
 
-1. **Diverse Mathematical Models**: Instead of standard coding problems, this benchmark focuses on a variety of mathematical models. From sequences like Fibonacci to prime number calculations, the problems offer a blend of computational and mathematical challenges.
-  
-2. **Automated Testing Harness**: With a prime focus on automation, the testing harness allows for seamless evaluation. Whether you have 10 or 10,000 problems, the script can evaluate solutions without manual intervention.
+## Usage Instructions
 
-3. **Flexibility for Expansion**: The structured format of problems makes it easy to add new challenges. Whether you want to introduce new mathematical concepts or increase the complexity of existing ones, the framework supports it.
+1. Ensure that both the `problems.json` file and the `automated_testing.py` script are in the same directory.
+2. Run the testing script using Python:
 
-4. **Granular Feedback**: Instead of just a pass/fail status, the harness provides detailed feedback on each problem. This can be instrumental in understanding the strengths and weaknesses of a Generative AI model in coding tasks.
+```
+python automated_testing.py
+```
 
-5. **Open-Source and Collaborative**: The project is open-sourced, allowing for community-driven enhancements, extensions, and improvements.
+3. The script will simulate the generation of solutions by the AI, test these solutions against the sample test cases, and evaluate them based on "Correctness" and "Robustness". The results will be printed to the console.
 
-## Problem Structure
-Each problem in the dataset is represented as a JSON object with the following attributes:
-- `problem_id`: A unique identifier for the problem.
-- `problem_statement`: The textual description of the coding problem.
-- `sample_test_cases`: A list of sample test cases where each test case has:
-  - `input`: The input parameters for the problem.
-  - `expected_output`: The expected output for the given input.
+## Evaluation Metrics
 
-## Running the Testing Harness
-To evaluate the solutions against the generated problems:
-1. Ensure you have the `diverse_math_problems.json` file in the same directory as the script or adjust the path in the script.
-2. Run the `testing_harness_script.py` Python script.
-3. The script will automatically test the mock solutions against the problems and print the results.
-
-## Results
-The script will output:
-- A list of results with the number of passed tests for each problem.
-- Any errors encountered during the testing process, like missing solutions or runtime errors.
-
-## Potential Errors and Troubleshooting
-If a problem doesn't have a corresponding mock solution, the script will log an error message indicating the missing solution for the specific problem ID. Additionally, runtime errors during solution testing will be logged with the problem ID and the error message.
+- **Correctness**: Determines if the generated solution produces the expected output for the given sample test cases.
+- **Robustness**: Assesses the solution's ability to handle edge cases and unexpected inputs without crashing or producing errors.
 
 ## Future Work
-The testing harness can be extended to include more diverse problems, refine existing mock solutions, and enhance the evaluation metrics for a comprehensive benchmarking of Generative AI models in coding tasks.
 
-## License
-This project is open source and available under the MIT License.
-
+This is a mock version of the project that provides a scaffold for evaluating generative AI's coding abilities. Future work should focus on integrating with real Generative AI platforms and expanding the testing capabilities.
