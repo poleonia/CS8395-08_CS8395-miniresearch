@@ -1,29 +1,48 @@
 
-# AI Coding Abilities Assessment
+# Generative AI Coding Benchmark
 
-This project aims to assess generative AI's coding capabilities through a set of 100 Python problems that focus on good practices of software engineering. Each problem tests the AI's ability to write code that is not only functional but also adheres to principles such as modularity, readability, and robustness.
+This project focuses on assessing the coding abilities of Generative AI models. The primary aim is to evaluate if these models can generate Python code solutions for diverse mathematical problems.
+
+## Overview
+
+- **Problems**: 100 diverse math model problems encompassing Fibonacci sequences, prime number checking, and factorial calculations.
+- **Automated Testing**: A Python script designed to evaluate AI-generated solutions against provided test cases for each problem.
+- **Objective**: Assess the capacity of Generative AI to understand and solve coding challenges, with a particular emphasis on diverse mathematical models.
+
+## Getting Started
+
+1. **Setup**:
+   - Clone this repository.
+   - Ensure you have Python 3.x installed.
+
+2. **Running the Automated Test Script**:
+   - Execute the script using the command: 
+     ```
+     python automated_test_script.py
+     ```
+   - The script will load the problems, generate solutions (placeholder currently), and evaluate them.
 
 ## Project Structure
 
-- `problems.json`: A JSON file containing 100 Python coding problems, each with a description, input parameters, output parameters, sample test cases, coding guidelines, and evaluation metrics.
-- `automated_testing.py`: A Python script that mocks the generation of solutions by an AI, tests these solutions against the provided sample test cases, and evaluates them based on the metrics defined in `problems.json`.
+- **math_model_problems.json**: Contains the 100 coding problems in a structured format.
+- **automated_test_script.py**: The main script that evaluates AI-generated solutions.
 
-## Usage Instructions
+## Customizing the AI Solution Generator
 
-1. Ensure that both the `problems.json` file and the `automated_testing.py` script are in the same directory.
-2. Run the testing script using Python:
+The current testing script contains a placeholder function for generating AI solutions. To integrate a real Generative AI model:
 
-```
-python automated_testing.py
-```
+1. Replace the `generate_solution` function in `automated_test_script.py`.
+2. Ensure the function returns valid Python code as a solution to the loaded problem.
+3. The returned code should be executable and return expected outputs for the given test cases.
 
-3. The script will simulate the generation of solutions by the AI, test these solutions against the sample test cases, and evaluate them based on "Correctness" and "Robustness". The results will be printed to the console.
+## Results
 
-## Evaluation Metrics
+After executing the script, you will receive results indicating how many test cases each problem passed.
 
-- **Correctness**: Determines if the generated solution produces the expected output for the given sample test cases.
-- **Robustness**: Assesses the solution's ability to handle edge cases and unexpected inputs without crashing or producing errors.
+## Contributing
 
-## Future Work
+Feel free to fork this project and integrate it with actual Generative AI models. Enhancements, especially in the area of solution evaluation and diverse problem generation, are welcome!
 
-This is a mock version of the project that provides a scaffold for evaluating generative AI's coding abilities. Future work should focus on integrating with real Generative AI platforms and expanding the testing capabilities.
+## License
+
+This project is open-source and available to everyone for research and development purposes.
