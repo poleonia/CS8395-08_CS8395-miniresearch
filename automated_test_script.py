@@ -27,7 +27,7 @@ def evaluate_solution(problem, solution):
     return passed_tests, total_tests
 
 def main():
-    problems = load_problems("math_model_problems.json")
+    problems = load_problems("problems.json")
     results = []
     
     for problem in problems:

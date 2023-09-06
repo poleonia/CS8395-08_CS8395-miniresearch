@@ -24,7 +24,7 @@ This project focuses on assessing the coding abilities of Generative AI models. 
 
 ## Project Structure
 
-- **math_model_problems.json**: Contains the 100 coding problems in a structured format.
+- **problems.json**: Contains the 100 coding problems in a structured format.
 - **automated_test_script.py**: The main script that evaluates AI-generated solutions.
 
 ## Customizing the AI Solution Generator

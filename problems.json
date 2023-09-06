@@ -1,0 +1,4930 @@
+[
+    {
+        "problem_id": "001",
+        "problem_statement": "Write a function that checks if the number 1 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 101)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "002",
+        "problem_statement": "Write a function that calculates the 2-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 12)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 12."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "003",
+        "problem_statement": "Write a function that calculates the 3-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 13)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 13."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "004",
+        "problem_statement": "Write a function that checks if the number 4 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 104)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "005",
+        "problem_statement": "Write a function that checks if the number 5 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 105)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "006",
+        "problem_statement": "Write a function that calculates the factorial of 6.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 16)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "007",
+        "problem_statement": "Write a function that checks if the number 7 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 107)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "008",
+        "problem_statement": "Write a function that calculates the factorial of 8.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 18)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "009",
+        "problem_statement": "Write a function that calculates the 9-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 19)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 19."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "010",
+        "problem_statement": "Write a function that calculates the 10-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 20)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 20."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "011",
+        "problem_statement": "Write a function that calculates the factorial of 11.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 21)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "012",
+        "problem_statement": "Write a function that calculates the factorial of 12.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 22)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "013",
+        "problem_statement": "Write a function that checks if the number 13 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 113)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "014",
+        "problem_statement": "Write a function that calculates the 14-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 24)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 24."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "015",
+        "problem_statement": "Write a function that checks if the number 15 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 115)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "016",
+        "problem_statement": "Write a function that calculates the 16-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 26)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 26."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "017",
+        "problem_statement": "Write a function that checks if the number 17 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 117)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "018",
+        "problem_statement": "Write a function that checks if the number 18 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 118)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "019",
+        "problem_statement": "Write a function that calculates the 19-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 29)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 29."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "020",
+        "problem_statement": "Write a function that calculates the 20-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 30)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 30."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "021",
+        "problem_statement": "Write a function that checks if the number 21 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 121)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "022",
+        "problem_statement": "Write a function that calculates the factorial of 22.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 32)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "023",
+        "problem_statement": "Write a function that calculates the factorial of 23.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 33)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "024",
+        "problem_statement": "Write a function that calculates the 24-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 34)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 34."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "025",
+        "problem_statement": "Write a function that calculates the factorial of 25.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 35)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "026",
+        "problem_statement": "Write a function that calculates the factorial of 26.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 36)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "027",
+        "problem_statement": "Write a function that calculates the 27-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 37)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 37."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "028",
+        "problem_statement": "Write a function that calculates the 28-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 38)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 38."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "029",
+        "problem_statement": "Write a function that calculates the 29-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 39)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 39."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "030",
+        "problem_statement": "Write a function that calculates the factorial of 30.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 40)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "031",
+        "problem_statement": "Write a function that calculates the factorial of 31.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 41)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "032",
+        "problem_statement": "Write a function that calculates the 32-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 42)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 42."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "033",
+        "problem_statement": "Write a function that calculates the factorial of 33.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 43)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "034",
+        "problem_statement": "Write a function that checks if the number 34 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 134)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "035",
+        "problem_statement": "Write a function that calculates the 35-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 45)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 45."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "036",
+        "problem_statement": "Write a function that calculates the 36-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 46)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 46."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "037",
+        "problem_statement": "Write a function that calculates the 37-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 47)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 47."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "038",
+        "problem_statement": "Write a function that calculates the 38-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 48)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 48."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "039",
+        "problem_statement": "Write a function that calculates the factorial of 39.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 49)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "040",
+        "problem_statement": "Write a function that calculates the 40-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 50)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 50."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "041",
+        "problem_statement": "Write a function that calculates the factorial of 41.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 51)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "042",
+        "problem_statement": "Write a function that calculates the 42-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 52)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 52."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "043",
+        "problem_statement": "Write a function that checks if the number 43 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 143)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "044",
+        "problem_statement": "Write a function that calculates the 44-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 54)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 54."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "045",
+        "problem_statement": "Write a function that calculates the 45-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 55)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 55."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "046",
+        "problem_statement": "Write a function that calculates the factorial of 46.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 56)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "047",
+        "problem_statement": "Write a function that calculates the 47-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 57)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 57."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "048",
+        "problem_statement": "Write a function that calculates the factorial of 48.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 58)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "049",
+        "problem_statement": "Write a function that checks if the number 49 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 149)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "050",
+        "problem_statement": "Write a function that checks if the number 50 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 150)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "051",
+        "problem_statement": "Write a function that checks if the number 51 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 151)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "052",
+        "problem_statement": "Write a function that checks if the number 52 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 152)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "053",
+        "problem_statement": "Write a function that calculates the factorial of 53.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 63)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "054",
+        "problem_statement": "Write a function that checks if the number 54 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 154)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "055",
+        "problem_statement": "Write a function that calculates the 55-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 65)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 65."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "056",
+        "problem_statement": "Write a function that calculates the factorial of 56.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 66)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "057",
+        "problem_statement": "Write a function that calculates the factorial of 57.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 67)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "058",
+        "problem_statement": "Write a function that calculates the factorial of 58.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 68)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "059",
+        "problem_statement": "Write a function that checks if the number 59 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 159)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "060",
+        "problem_statement": "Write a function that checks if the number 60 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 160)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "061",
+        "problem_statement": "Write a function that checks if the number 61 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 161)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "062",
+        "problem_statement": "Write a function that calculates the factorial of 62.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 72)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "063",
+        "problem_statement": "Write a function that checks if the number 63 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 163)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "064",
+        "problem_statement": "Write a function that checks if the number 64 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 164)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "065",
+        "problem_statement": "Write a function that calculates the 65-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 75)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 75."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "066",
+        "problem_statement": "Write a function that checks if the number 66 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 166)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "067",
+        "problem_statement": "Write a function that calculates the factorial of 67.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 77)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "068",
+        "problem_statement": "Write a function that calculates the 68-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 78)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 78."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "069",
+        "problem_statement": "Write a function that checks if the number 69 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 169)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "070",
+        "problem_statement": "Write a function that checks if the number 70 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 170)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "071",
+        "problem_statement": "Write a function that checks if the number 71 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 171)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "072",
+        "problem_statement": "Write a function that calculates the factorial of 72.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 82)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "073",
+        "problem_statement": "Write a function that calculates the factorial of 73.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 83)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "074",
+        "problem_statement": "Write a function that calculates the factorial of 74.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 84)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "075",
+        "problem_statement": "Write a function that calculates the factorial of 75.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 85)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "076",
+        "problem_statement": "Write a function that calculates the 76-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 86)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 86."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "077",
+        "problem_statement": "Write a function that checks if the number 77 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 177)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "078",
+        "problem_statement": "Write a function that checks if the number 78 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 178)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "079",
+        "problem_statement": "Write a function that calculates the factorial of 79.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 89)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "080",
+        "problem_statement": "Write a function that calculates the 80-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 90)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 90."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "081",
+        "problem_statement": "Write a function that checks if the number 81 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 181)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "082",
+        "problem_statement": "Write a function that calculates the factorial of 82.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 92)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "083",
+        "problem_statement": "Write a function that calculates the factorial of 83.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 93)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "084",
+        "problem_statement": "Write a function that calculates the 84-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 94)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 94."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "085",
+        "problem_statement": "Write a function that calculates the 85-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 95)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 95."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "086",
+        "problem_statement": "Write a function that calculates the 86-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 96)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 96."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "087",
+        "problem_statement": "Write a function that calculates the 87-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 97)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 97."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "088",
+        "problem_statement": "Write a function that calculates the 88-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 98)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 98."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "089",
+        "problem_statement": "Write a function that calculates the 89-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 99)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 99."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "090",
+        "problem_statement": "Write a function that checks if the number 90 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 190)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "091",
+        "problem_statement": "Write a function that calculates the factorial of 91.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 101)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "092",
+        "problem_statement": "Write a function that checks if the number 92 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 192)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "093",
+        "problem_statement": "Write a function that checks if the number 93 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 193)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "094",
+        "problem_statement": "Write a function that calculates the factorial of 94.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 104)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "Factorial of the input number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    2
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative methods for large numbers to avoid stack overflow.",
+            "Optimize for efficiency."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "095",
+        "problem_statement": "Write a function that calculates the 95-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 105)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 105."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "096",
+        "problem_statement": "Write a function that checks if the number 96 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 196)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "097",
+        "problem_statement": "Write a function that calculates the 97-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 107)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 107."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "098",
+        "problem_statement": "Write a function that checks if the number 98 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 198)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "099",
+        "problem_statement": "Write a function that checks if the number 99 is prime.",
+        "input_parameters": [
+            {
+                "name": "num",
+                "type": "int",
+                "description": "An integer (2 <= num <= 199)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "bool",
+                "description": "True if the number is prime, False otherwise."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    true
+                ]
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_output": [
+                    false
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Avoid brute force checks.",
+            "Optimize for larger numbers."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    },
+    {
+        "problem_id": "100",
+        "problem_statement": "Write a function that calculates the 100-th Fibonacci number.",
+        "input_parameters": [
+            {
+                "name": "n",
+                "type": "int",
+                "description": "An integer (0 <= n <= 110)."
+            }
+        ],
+        "output_parameters": [
+            {
+                "name": "result",
+                "type": "int",
+                "description": "The n-th Fibonacci number."
+            }
+        ],
+        "sample_test_cases": [
+            {
+                "input": [
+                    0
+                ],
+                "expected_output": [
+                    0
+                ]
+            },
+            {
+                "input": [
+                    1
+                ],
+                "expected_output": [
+                    1
+                ]
+            },
+            {
+                "input": [
+                    2
+                ],
+                "expected_output": [
+                    1
+                ]
+            }
+        ],
+        "coding_guidelines": [
+            "Consider using iterative approaches for efficiency.",
+            "Function should handle values of n up to 110."
+        ],
+        "evaluation_metrics": [
+            "Correctness",
+            "Efficiency"
+        ]
+    }
+]
